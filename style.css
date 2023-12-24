@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Preahvihear&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', 'cursive', 'Preahvihear', sans-serif;
+    background-color: black;
+    color:aqua;
+    font-size: 24px;
+}
+input{
+    margin: 12px 20px;
+    padding: 6px 12px;
+    color: red;
+    background-color: black;
+    border-radius: 15px;
+    font-size: larger;
+    border: 3px solid red;
+}
+button{
+    margin:12px auto;
+    font-size: medium;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background-color: black;
+    color: aqua;
+    border: 3px solid red;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+i{
+    color:red;
+}
+img{
+    margin: 5px auto;
+    width: 200px;
+    border-radius:50%;
+}
+.container{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 60vw;
+    min-width: 330px;
+    text-align: center;
+    padding: 35px 15px;
+}
+h1{
+ padding: 10px 10px;
+}
+.card div{
+    padding:5px;
+}
+.card-text p{
+    padding:5px;
+}
